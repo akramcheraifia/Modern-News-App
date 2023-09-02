@@ -25,15 +25,18 @@ class News extends StatelessWidget {
         Positioned(
           top: 20,
           left: 22,
-          right: 0.0,
-          child: AppBar(
-            title: const Text(''), // You can add title here
-            leading: IconButton(
-              icon: SvgPicture.asset('assets/images/nav_bar/Nav Bar.svg'),
-              onPressed: () => Navigator.of(context).pop(),
+          right: 280.0,
+          child: SafeArea(
+            child: AppBar(
+              title: const Text(''), // You can add title here
+              leading: IconButton(
+                icon: SvgPicture.asset('assets/images/nav_bar/Nav Bar.svg'),
+                onPressed: () => Navigator.of(context).pop(),
+              ),
+              backgroundColor:
+                  Colors.transparent, //You can make this transparent
+              elevation: 0.0, //No shadow
             ),
-            backgroundColor: Colors.transparent, //You can make this transparent
-            elevation: 0.0, //No shadow
           ),
         ),
       ],
