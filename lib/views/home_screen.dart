@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
-
-import '../widgets/latest_news.dart';
-import '../widgets/nav_bar.dart';
-import '../widgets/swipe_news.dart';
+import 'package:news_app/widgets/home_screen/latest_news.dart';
+import 'package:news_app/widgets/home_screen/nav_bar.dart';
+import 'package:news_app/widgets/home_screen/swipe_news.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
+  static String homeScreen = 'homeScreen';
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return const Scaffold(
       body: SafeArea(
         left: false,
         right: false,

@@ -62,6 +62,7 @@ flutter:
   assets:
     - assets/images/nav_bar/Menu Icon.svg
     - assets/images/nav_bar/Podcast Icon.svg
+    - assets/images/nav_bar/Nav Bar.svg
     - assets/images/swipe_item/
     - assets/images/latest_news/
     - assets/images/bottom_bar/

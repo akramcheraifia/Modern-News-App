@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:news_app/widgets/swipe_item.dart';
+import 'package:news_app/widgets/home_screen/swipe_item.dart';
 
 class SwipeNews extends StatelessWidget {
   const SwipeNews({super.key});
