@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:news_app/widgets/news/custom_nav_bar.dart';
+import 'package:news_app/widgets/news/swipe_bookmark.dart';
 import 'package:news_app/widgets/news/swipe_category.dart';
 
 class Bookmark extends StatelessWidget {
@@ -10,6 +11,7 @@ class Bookmark extends StatelessWidget {
     return const Scaffold(
         body: SafeArea(
       child: SingleChildScrollView(
+        physics: ScrollPhysics(),
         child: Column(
           children: [
             CustomNavBar(
@@ -19,6 +21,7 @@ class Bookmark extends StatelessWidget {
               title2: '',
             ),
             SwipeCategory(),
+            SwipeBookmark(),
           ],
         ),
       ),

@@ -35,7 +35,7 @@ class SwipeCategory extends StatelessWidget {
                   return const SwipeCategoryItem();
                 })),
           ),
-          SizedBox(
+          const SizedBox(
             height: 22,
           ),
           const Text(
