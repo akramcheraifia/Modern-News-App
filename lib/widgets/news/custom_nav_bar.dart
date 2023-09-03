@@ -24,6 +24,7 @@ class _CustomNavBarState extends State<CustomNavBar> {
         padding: const EdgeInsets.only(left: 20, top: 23, right: 20),
         child: AppBar(
           backgroundColor: Colors.transparent,
+          surfaceTintColor: Colors.transparent,
           leadingWidth: 40,
           leading: SvgPicture.asset(
             widget.leading,
