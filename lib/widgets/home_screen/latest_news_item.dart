@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:news_app/views/news.dart';
+import 'package:news_app/views/news_screen.dart';
 
 class LatesNewsItem extends StatelessWidget {
   const LatesNewsItem({super.key});

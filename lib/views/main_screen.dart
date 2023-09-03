@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:news_app/views/bookmark_screen.dart';
 import 'package:news_app/views/home_screen.dart';
 
 class Home extends StatefulWidget {
@@ -12,7 +13,7 @@ class Home extends StatefulWidget {
 
 class _HomeState extends State<Home> {
   int _pageIndex = 0;
-  final List _tabList = [const HomeScreen()];
+  final List _tabList = [const HomeScreen(), const Bookmark()];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -43,7 +44,7 @@ class _HomeState extends State<Home> {
                         activeIcon: SvgPicture.asset(
                             'assets/images/bottom_bar/Home Icon.svg'),
                         icon: SvgPicture.asset(
-                            'assets/images/bottom_bar/Home Icon.svg'),
+                            'assets/images/bottom_bar/Home Icon A.svg'),
                       ),
                       BottomNavigationBarItem(
                           activeIcon: SvgPicture.asset(
