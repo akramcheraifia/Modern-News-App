@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:news_app/widgets/news/swipe_bookmark_item.dart';
+import 'package:news_app/widgets/bookmarks/swipe_bookmark_item.dart';
 
 class SwipeBookmark extends StatelessWidget {
   const SwipeBookmark({super.key});

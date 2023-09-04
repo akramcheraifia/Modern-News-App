@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:news_app/widgets/news/swipe_category_item.dart';
+import 'package:news_app/widgets/bookmarks/swipe_category_item.dart';
 
 class SwipeCategory extends StatelessWidget {
   const SwipeCategory({super.key});

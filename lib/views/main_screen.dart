@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:news_app/views/bookmark_screen.dart';
 import 'package:news_app/views/home_screen.dart';
+import 'package:news_app/views/notification_screen.dart';
 
 class Home extends StatefulWidget {
   const Home({super.key});
@@ -13,7 +14,11 @@ class Home extends StatefulWidget {
 
 class _HomeState extends State<Home> {
   int _pageIndex = 0;
-  final List _tabList = [const HomeScreen(), const Bookmark()];
+  final List _tabList = [
+    const HomeScreen(),
+    const Bookmark(),
+    const NotificationScreen()
+  ];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
